@@ -1,0 +1,45 @@
+	
+	.logo_h1 {
+	color: white;
+	text-align: center;
+	margin: 20px;
+	}
+
+	#logo {
+	background: #1A0505;
+	width: 100%;
+      	height: 100%;
+	overflow: hidden;
+	}
+
+	#img_logo {
+	margin-right: 20px;
+	float: left;
+	}
+		
+	.center-menu {
+	width: 80%;
+	margin: 0 auto
+	text-align: centr;
+	}
+
+	ul {
+	padding-left: 0;
+	list-style-position: inside;
+	}
+
+	.center-menu a {
+	color: white; /* Цвет ссылок */
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px 20px;
+	transition: background 0.3s;
+	}
+
+	.center-menu li {
+	color: white; /* Цвет текста пунктов */
+	font-size: 20px;
+	}
+
+
+
