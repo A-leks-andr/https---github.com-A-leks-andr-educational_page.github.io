@@ -1,5 +1,5 @@
 	
-	.logo_h1 {
+	.logo_h {
 	color: white;
 	text-align: center;
 	margin: 20px;
@@ -21,6 +21,19 @@
 	text-align: center;
 	margin: 0 auto;
 	padding-left: 375px;
+	}
+
+	.on_black:link {
+		color: #d8e494;
+		text-decoration: none;
+	}
+
+	.on_black:visited {
+		color: #92e46c;
+	}
+
+	.on_black:hover {
+		color: #f30808;
 	}
 
 	.center-menu ul {
