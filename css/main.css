@@ -52,9 +52,9 @@
 	}
 
 	.profile {
-	border: 2px solid #570505; /* Толщина, стиль и цвет рамки */
-    padding: 10px;         /* Отступы внутри секции */
-    margin: 5px 0;          /* Отступы снаружи секции */
+	border: 2px solid #570505;
+    padding: 10px;
+    margin: 5px 0;
 	color: #000;
 	text-align: center;
 	background-color: #d9dfba;
@@ -75,21 +75,21 @@
 		margin: 0 auto;
 	}
 
-	.foto {
+	.card img {
 		width: 100px;
 		height: 100px;
 		border-radius: 50%;
 		margin-bottom: 15px;
 	}
 
-	.name {
+	.card h2 {
 		font-size: 24px;
 		color: #333;
 		margin: 0;
 		padding-bottom: 10px;
 	}
 
-	.proof {
+	.card p {
 		font-size: 16px;
 		color: #666;
 		padding: 0;
