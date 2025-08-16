@@ -31,7 +31,7 @@ img {
 
 .article {
   /* BEGIN (write your solution here) */
-  columns: 250px 2;
+  column-count:  2;
   column-rule: 2px solid #3d405b;
   column-gap: 50px;
   /* END */
@@ -44,7 +44,7 @@ img {
   color: #f4f1de;
 
   /* BEGIN (write your solution here) */
-  columns: 250px 2;
+  column-count:  2;
   column-span: all;
   /* END */
 
