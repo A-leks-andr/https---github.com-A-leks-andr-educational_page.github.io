@@ -1,6 +1,6 @@
 	
 	.logo_h {
-	color: white;
+	color: rgb(201, 201, 176);
 	text-align: center;
 	margin: 20px;
 	}
@@ -16,13 +16,8 @@
 	margin-right: 10px;
 	float: left;
 	}
-		
-	.center-menu {
-	text-align: center;
-	margin: 0 auto;
-	padding-left: 375px;
-	}
 
+	
 	.on_black:link {
 		color: #d8e494;
 		text-decoration: none;
@@ -36,19 +31,41 @@
 		color: #f30808;
 	}
 
-	.center-menu ul {
- 	margin-left: 10px;
- 	list-style-position: inside;
-	width: auto;
-	color: white;
-	font-size: 18px;
+	.menu {
+		margin: 0 auto;
+		padding-left: 375px;
+	}
+	.menu > ul {
+		display: flex;
+		width: 95%;
 	}
 
-	.center-menu li {
-	padding: 3px;
-	text-align: left;
-	font-size: 22px;
-	margin-left: 100px;
+	.menu li {
+		margin: 0 auto;
+		position: relative;
+		padding: 10px 15px;
+		cursor: pointer;
+	}
+	.nav-title {
+		color: #ecebb2;
+		text-align: center;
+	}
+
+	.sub-menu {
+		display: none;
+		position: absolute;
+		left: 0;
+	}
+
+	.menu li:hover > .sub-menu {
+		display: block;
+		position: absolute;
+		width: max-content;
+		padding-top: 10px;
+	}
+
+	li > a {
+		font-size: 20px;
 	}
 
 	.task {
