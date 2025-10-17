@@ -1,6 +1,6 @@
 	
 	.logo_h {
-	color: rgb(201, 201, 176);
+	color: #fff;
 	text-align: center;
 	margin: 20px;
 	}
@@ -19,7 +19,7 @@
 
 	
 	.on_black:link {
-		color: #d8e494;
+		color: #fff;
 		text-decoration: none;
 	}
 
@@ -47,7 +47,7 @@
 		cursor: pointer;
 	}
 	.nav-title {
-		color: #ecebb2;
+		color: #fff;
 		text-align: center;
 	}
 
